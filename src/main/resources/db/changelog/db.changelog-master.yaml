@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changeset-create-table.xml
+
+  # Если файлов много, удобнее подключать сразу всю папку по очереди:
+  # - includeAll:
+  #     path: db/changelog/changeset/
